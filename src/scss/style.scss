@@ -9,7 +9,7 @@
 	margin: 0;
 	padding: 0;
 }
-.wrapper{
+.wrapper {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -17,19 +17,19 @@
 	overflow: hidden;
 }
 .container {
-	max-width: 1120px;
-	padding: 0px 10px;
-	margin: 0 auto;
-	&-b{
-		max-width: 1270px;
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	@media (max-width: 1199.98px) {
+		max-width: 970px;
 		padding: 0px 10px;
-		margin: 0 auto;
 	}
-}
-.content{
-	background-color: #fff;
-	position: relative;
-	z-index: 50;
+	@media (max-width: 991.98px) {
+		max-width: 750px;
+	}
+	@media (max-width: 767.98px) {
+		max-width: none;
+	}
 }
 
 .ibg {
