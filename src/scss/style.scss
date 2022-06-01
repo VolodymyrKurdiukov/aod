@@ -1,0 +1,51 @@
+@import "base/null.scss";
+@import "base/fonts";
+@import "base/btn";
+@import "base/links";
+@import "base/baguetteBox";
+
+* {
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+.container {
+	max-width: 1120px;
+	padding: 0px 10px;
+	margin: 0 auto;
+	&-b{
+		max-width: 1270px;
+		padding: 0px 10px;
+		margin: 0 auto;
+	}
+}
+.content{
+	background-color: #fff;
+	position: relative;
+	z-index: 50;
+}
+
+.ibg {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	img {
+		display: none;
+	}
+}
+@import "blocks/main";
+@import "blocks/about";
+@import "blocks/portfolio";
+@import "blocks/partners";
+@import "blocks/contact";
+@import "blocks/portfolio_page";
+@import "blocks/footer";
+
+@import "base/media";
