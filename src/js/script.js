@@ -33,21 +33,21 @@ $(document).ready(function () {
 });
 //=====================================================================================================================
 
-//scroll main_bg
-$(window).scroll(function (event) {
-	var s = 0 - $(this).scrollTop() / 3;
-	$('.main__img').css('transform', 'translate3d(0, ' + s + 'px, 0)');
-});
+// //scroll main_bg
+// $(window).scroll(function (event) {
+// 	var s = 0 - $(this).scrollTop() / 3;
+// 	$('.main__img').css('transform', 'translate3d(0, ' + s + 'px, 0)');
+// });
 
-//scroll main_bg
-$(window).resize(function (event) {
-	main();
-});
-function main() {
-	var h = $(window).outerHeight();
-	$('.main').css('min-height', h);
-}
-main();
+// //scroll main_bg
+// $(window).resize(function (event) {
+// 	main();
+// });
+// function main() {
+// 	var h = $(window).outerHeight();
+// 	$('.main').css('min-height', h);
+// }
+// main();
 //=====================================================================================================================
 
 //goto block
