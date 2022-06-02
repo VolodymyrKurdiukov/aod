@@ -36,18 +36,14 @@
 	left: 0;
 }
 
-
-.ibg {
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	img {
-		display: none;
-	}
-}
-
 @import "blocks/header";
 @import "blocks/main";
+@import "blocks/generation";
+@import "blocks/brands";
+@import "blocks/slider";
 @import "blocks/footer";
 
 @import "media/header_media";
+@import "media/gemeration_media";
+@import "media/brands_media";
+@import "media/slider_media";
