@@ -46,22 +46,4 @@
 	}
 }
 
-.title {
-	font-size: 34px;
-	font-weight: 700;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 8.95px;
-	position: relative;
-	padding: 0px 0px 35px 0px;
-	&::after {
-		content: "";
-		position: absolute;
-		bottom: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 81px;
-		height: 1px;
-		background-color: #000000;
-	}
-}
+
